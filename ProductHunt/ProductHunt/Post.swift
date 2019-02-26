@@ -20,7 +20,7 @@ struct Post {
 }
 
 struct PostList: Decodable {
-    var posts = [Post]
+    var posts: [Post]
 }
 
 extension Post: Decodable {

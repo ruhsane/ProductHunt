@@ -14,6 +14,7 @@
 		9D91DD4F2225D9E60060870D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91DD4D2225D9E60060870D /* LaunchScreen.storyboard */; };
 		9D91DD572225DF940060870D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DD562225DF940060870D /* Post.swift */; };
 		9D91DD592225E77D0060870D /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DD582225E77D0060870D /* PostTableViewCell.swift */; };
+		9D91DD5B2225F3020060870D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DD5A2225F3020060870D /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9D91DD502225D9E60060870D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D91DD562225DF940060870D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		9D91DD582225E77D0060870D /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		9D91DD5A2225F3020060870D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9D91DD442225D9E50060870D /* AppDelegate.swift */,
 				9D91DD462225D9E50060870D /* FeedViewController.swift */,
 				9D91DD562225DF940060870D /* Post.swift */,
+				9D91DD5A2225F3020060870D /* NetworkManager.swift */,
 				9D91DD482225D9E50060870D /* Main.storyboard */,
 				9D91DD582225E77D0060870D /* PostTableViewCell.swift */,
 				9D91DD4B2225D9E60060870D /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				9D91DD572225DF940060870D /* Post.swift in Sources */,
 				9D91DD472225D9E50060870D /* FeedViewController.swift in Sources */,
+				9D91DD5B2225F3020060870D /* NetworkManager.swift in Sources */,
 				9D91DD452225D9E50060870D /* AppDelegate.swift in Sources */,
 				9D91DD592225E77D0060870D /* PostTableViewCell.swift in Sources */,
 			);
