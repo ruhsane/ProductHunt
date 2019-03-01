@@ -17,6 +17,7 @@
 		9D91DD5B2225F3020060870D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DD5A2225F3020060870D /* NetworkManager.swift */; };
 		9D91DD5D2225FB990060870D /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DD5C2225FB990060870D /* CommentsViewController.swift */; };
 		9D91DD5F2225FE590060870D /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DD5E2225FE590060870D /* CommentTableViewCell.swift */; };
+		9D91DD612226004E0060870D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DD602226004E0060870D /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9D91DD5A2225F3020060870D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9D91DD5C2225FB990060870D /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
 		9D91DD5E2225FE590060870D /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		9D91DD602226004E0060870D /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,18 +67,43 @@
 			isa = PBXGroup;
 			children = (
 				9D91DD442225D9E50060870D /* AppDelegate.swift */,
-				9D91DD462225D9E50060870D /* FeedViewController.swift */,
-				9D91DD562225DF940060870D /* Post.swift */,
 				9D91DD5A2225F3020060870D /* NetworkManager.swift */,
-				9D91DD482225D9E50060870D /* Main.storyboard */,
-				9D91DD5E2225FE590060870D /* CommentTableViewCell.swift */,
-				9D91DD5C2225FB990060870D /* CommentsViewController.swift */,
-				9D91DD582225E77D0060870D /* PostTableViewCell.swift */,
+				9D91DD64222600910060870D /* View */,
+				9D91DD63222600750060870D /* Controller */,
+				9D91DD622226005D0060870D /* Model */,
 				9D91DD4B2225D9E60060870D /* Assets.xcassets */,
 				9D91DD4D2225D9E60060870D /* LaunchScreen.storyboard */,
 				9D91DD502225D9E60060870D /* Info.plist */,
 			);
 			path = ProductHunt;
+			sourceTree = "<group>";
+		};
+		9D91DD622226005D0060870D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D91DD562225DF940060870D /* Post.swift */,
+				9D91DD602226004E0060870D /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D91DD63222600750060870D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D91DD462225D9E50060870D /* FeedViewController.swift */,
+				9D91DD5C2225FB990060870D /* CommentsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9D91DD64222600910060870D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D91DD482225D9E50060870D /* Main.storyboard */,
+				9D91DD5E2225FE590060870D /* CommentTableViewCell.swift */,
+				9D91DD582225E77D0060870D /* PostTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +180,7 @@
 				9D91DD572225DF940060870D /* Post.swift in Sources */,
 				9D91DD472225D9E50060870D /* FeedViewController.swift in Sources */,
 				9D91DD5D2225FB990060870D /* CommentsViewController.swift in Sources */,
+				9D91DD612226004E0060870D /* Comment.swift in Sources */,
 				9D91DD5B2225F3020060870D /* NetworkManager.swift in Sources */,
 				9D91DD5F2225FE590060870D /* CommentTableViewCell.swift in Sources */,
 				9D91DD452225D9E50060870D /* AppDelegate.swift in Sources */,
